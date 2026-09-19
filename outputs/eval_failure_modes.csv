@@ -1,0 +1,3 @@
+responder,flags,grounded numbers,refuses,required facts
+"Grounded, no guardrails",10,0,4,2
+Ungrounded LLM (simulated),0,24,0,0

@@ -1,0 +1,6 @@
+# Tested with Python 3.13: pandas 3.0, numpy 2.3, statsmodels 0.14, matplotlib 3.10.
+# Diagrams export PNGs via `rsvg-convert` if installed (optional; the SVG sources are always written).
+pandas>=2.2
+numpy>=1.26
+statsmodels>=0.14
+matplotlib>=3.8

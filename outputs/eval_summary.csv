@@ -1,0 +1,4 @@
+responder,explain,guardrail,uncertainty,what-if (computed),what-if (not computed),ALL
+"Grounded, no guardrails",0.67,0.0,0.0,1.0,0.0,0.33
+Reference template,1.0,1.0,1.0,1.0,1.0,1.0
+Ungrounded LLM (simulated),0.0,0.0,0.0,0.0,0.0,0.0
