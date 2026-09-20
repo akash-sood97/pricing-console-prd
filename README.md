@@ -15,6 +15,10 @@
 
 **[Read the full PRD →](docs/PRD.md)**
 
+![An A/B test of a +5% price move would run 61 weeks, +10% sixteen weeks and +20% only 4.5 weeks, against a one-quarter budget - so the console ships guarded rollouts. One of three assistant versions clears the release bar across 24 evaluation cases.](figures/00_decision.png)
+
+*The whole decision in one picture. The three figures below repeat it as text.*
+
 | | | |
 |---|---|---|
 | **61 weeks → 4.5** | **1 of 3** | **24 cases** |
@@ -129,6 +133,7 @@ python analysis/experiment_power.py    # price-test sizing
 python analysis/make_diagrams.py       # wireframes and diagrams (PNG export needs rsvg-convert)
 python analysis/plot_eval.py           # eval chart
 python analysis/build_prd.py           # regenerate docs/PRD.md from the computed numbers above
+python analysis/make_summary.py        # collect every number into outputs/summary.json + the decision card
 ```
 
 `rsvg-convert` is a system binary, not a Python package: install it with `brew install librsvg` (macOS) or `apt install librsvg2-bin` (Debian/Ubuntu). Everything except the diagram export runs without it.

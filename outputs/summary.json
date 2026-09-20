@@ -1,0 +1,16 @@
+{
+  "weeks_5pct": 60.70813654434703,
+  "weeks_10pct": 16.095188929393622,
+  "weeks_20pct": 4.503791847342035,
+  "segments": 6.0,
+  "conv_change_5pct": -1.013768151880573,
+  "eval_ref_all": 1.0,
+  "eval_noguard_all": 0.33,
+  "eval_ungrounded_all": 0.0,
+  "eval_noguard_guardrail": 0.0,
+  "eval_cases": 24.0,
+  "eval_responders": 3.0,
+  "eval_clearing_bar": 1.0,
+  "segments_detectable_5pct": 1.0,
+  "segments_total": 10.0
+}
